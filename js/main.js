@@ -9,6 +9,16 @@ function createHeader()
     document.write( '</div>');
 }
 
+function createBlogPostHeader()
+{
+    document.write( '<div class="small-12 medium-12 large-12 small-centered columns">');
+    document.write( '    <header>');
+    document.write( '        <h1><a href="../index.html">Esteban Tovagliari</a></h1>');
+    document.write( '        <h2><a href="../index.html">VFX Software Development</a></h2>');
+    document.write( '    </header>');
+    document.write( '</div>');
+}
+
 function createFooter()
 {
     document.write( '<div class="row">');
